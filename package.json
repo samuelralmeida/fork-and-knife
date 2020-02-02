@@ -1,0 +1,32 @@
+{
+  "name": "fork-and-knife",
+  "version": "1.0.0",
+  "description": "Recipes and shopping list web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelralmeida/fork-and-knife.git"
+  },
+  "author": "Samuel Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelralmeida/fork-and-knife/issues"
+  },
+  "homepage": "https://github.com/samuelralmeida/fork-and-knife#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
