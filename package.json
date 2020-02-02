@@ -4,7 +4,9 @@
   "description": "Recipes and shopping list web app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
     "webpack-dev-server": "^3.10.2"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "regenerator-runtime": "^0.13.3"
   }
